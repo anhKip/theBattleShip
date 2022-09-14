@@ -1,3 +1,5 @@
+NEW TEST
+
 #ifndef F_CPU
 #define F_CPU 16000000UL    // Set 16 MHz clock speed
 #endif
@@ -9,6 +11,8 @@
 #define DELAY_TIME 200
 //#define USART_BAUDRATE 9600
 //#define BAUD_PRESCALE ((((F_CPU / 16) + (USART_BAUDRATE / 2)) / (USART_BAUDRATE )) - 1)
+
+
 
 volatile int player[2] = {0, 0};                // Row - Col
 //volatile char gameMap[8][8] = {'\0'};
